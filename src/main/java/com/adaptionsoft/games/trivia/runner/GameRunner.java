@@ -13,14 +13,14 @@ public class GameRunner {
 		runTheGame(new Random());
 	}
 
-	public static void runTheGame(Random random) {
+	public static void runTheGame() {
 		Game aGame = new Game();
 
 		aGame.add("Chet");
 		aGame.add("Pat");
 		aGame.add("Sue");
 
-		Random rand = random;
+		Random rand = new Random();
 
 		do {
 
